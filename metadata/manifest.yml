@@ -1,5 +1,5 @@
 ---
-Name: php
+Name: vphp
 Cartridge-Short-Name: PHP
 Display-Name: PHP 5.3
 Description: ! 'PHP is a general-purpose server-side scripting language originally
@@ -11,7 +11,7 @@ License-Url: http://www.php.net/license/3_0.txt
 Vendor: php.net
 Cartridge-Version: 0.0.7
 Compatible-Versions: []
-Cartridge-Vendor: redhat
+Cartridge-Vendor: vphp2
 Categories:
 - service
 - php
@@ -85,3 +85,4 @@ Endpoints:
     Backend: ''
     Options:
       health: true
+Source-Url: http://github.com/xiuwang/vphp.git
