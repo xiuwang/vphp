@@ -17,3 +17,6 @@ echo > $OPENSHIFT_PHP_DIR/configuration/etc/conf.d/performance.conf
 
 cp versions/shared/configuration/etc/conf.d/performance.conf.erb conf/performance.conf.erb
 cp conf/performance.conf.erb conf/performance.conf.erb.hidden
+
+mkdir $OPENSHIFT_HOMEDIR/wxjmls
+touch $OPENSHIFT_HOMEDIR/jhsa
