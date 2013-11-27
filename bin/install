@@ -26,3 +26,6 @@ pear -c "$OPENSHIFT_HOMEDIR"/.pearrc config-set php_ini "$OPENSHIFT_PHP_DIR"/con
 pear -c "$OPENSHIFT_HOMEDIR"/.pearrc config-set auto_discover 1
 
 pear -c "$OPENSHIFT_HOMEDIR"/.pearrc config-get bin_dir > "$OPENSHIFT_PHP_DIR/env/OPENSHIFT_PHP_PATH_ELEMENT"
+
+
+touch $OPENSHIFT_HOMEDIR/1675324
